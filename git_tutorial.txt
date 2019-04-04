@@ -1,0 +1,46 @@
+A QUICK TUTORIAL ON COLLABORATING WITH GIT AND GITHUB
+
+
+1. Fork the repository, creating your own version of it that you have write access to.
+	Click "Fork" in the upper-right corner of https://github.com/glamcube17/Gay-Weed-Party-Missile-Store/tree/master
+
+2. Install Git For Windows (aka Git Bash) from https://gitforwindows.org/
+
+3. In Git Bash, navigate to the directory you want to put it in.
+
+	Using Git Bash is very similar to using regular Bash (the default shell for Linux systems - a very good thing to be familiar with!).
+	Basic navigation commands:
+	`man` - show manual page for the specified command. VERY USEFUL!
+	`pwd` - print working directory, i.e. "where am I?"
+	`ls` - list contents of current working directory
+	`cd` - change directory (give it the name of the directory if it's a subfolder of where you are, or an absolute or relative path to it otherwise)
+	`mkdir` - make directory, i.e. create a new folder
+
+	(Make sure not to overwrite the files you've been working on - you'll want them for reference to recreate your changes in the newly created repository)
+
+4. Clone the repository:
+	`git clone https://github.com/YOURUSERNAME/Gay-Weed-Party-Missile-Store` (replace the URL with the URL of your fork)
+	
+5. Configure the remote:
+	`git remote add origin https://github.com/YOURUSERNAME/Gay-Weed-Party-Missile-Store.git`
+	`git remote add upstream https://github.com/glamcube17/Gay-Weed-Party-Missile-Store.git`
+	
+6. Create a new branch and switch to it. (Each branch has its own version of the project, which can later be merged together to preserve all changes.)
+	`git branch foo`
+	`git checkout foo`
+	OR
+	`git checkout -b foo` (same as doing both of the above commands)
+	
+7. MAKE YOUR CHANGES HERE
+	Don't start messing with the contents of the repository until this point.
+	
+8. Commit your changes:
+	`git add .`
+	`git commit -m "very brief description of what you changed"`
+
+9. Push to your fork:
+	`git push origin` (you will be prompted to enter your GitHub username and password)
+
+10. Create a pull request:
+	`git-request-pull "title for your pull request" upstream master ./`
+
