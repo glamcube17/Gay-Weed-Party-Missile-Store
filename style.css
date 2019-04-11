@@ -32,15 +32,23 @@ img {
 	/* height: 80px; */
 	/* width: 80px; */
 	/* height: 100%; */
-	/* width: 75%; */
+	width: 75%;
 	/* height: 75%; */
-	/* max-height: 50px; */
+	display: block;
+	/* margin-left: auto; */
+    /* margin-right: auto; */
+	
+	/* border-style: ridge; */
+	/* border-width: 2px; */
+	/* border-color: #eeeeee; */
+}
+img.product {
 	width: 75px;
 	height: 75px;
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	
+
 	border-style: ridge;
 	border-width: 2px;
 	border-color: #eeeeee;
