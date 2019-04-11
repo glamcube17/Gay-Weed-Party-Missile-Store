@@ -39,7 +39,9 @@ A QUICK TUTORIAL ON COLLABORATING WITH GIT AND GITHUB
 	`git commit -m "very brief description of what you changed"`
 
 9. Push to your fork:
-	`git push origin` (you will be prompted to enter your GitHub username and password)
+	`git pull upstream master`
+	`git push origin master`
+	(you will be prompted to enter your GitHub username and password)
 
 10. Create a pull request:
 	`git-request-pull "title for your pull request" upstream master ./`
