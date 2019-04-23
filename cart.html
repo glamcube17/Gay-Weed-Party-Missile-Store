@@ -36,11 +36,11 @@
 	</div>
 	<div class='box' style='border:none; margin:0;'>
 		<div class='row'>
-			<div class='col' style='flex:0.05; text-align:right; padding-right:2px'>
-				<label>Search</label>
-			</div>
 			<div class='col' style='padding-left:2px'>
-				<input type="text" style='min-height: 20px;' />
+				<input type="text" style='min-height: 25px;' />
+			</div>
+			<div class='col' style='flex:0.05; padding-left:2px; padding-right:0; margin-right:0'>
+				<button class='button' style='float:right; margin-right:0; min-height: 22px;'><a  href='./searchresults.html' style='color:#ffffff'>Search</a></button>
 			</div>
 		</div>
 	</div>
@@ -54,22 +54,48 @@
 	
 	<div class='blue box'>
 		<div class='row'>
-			<div class='white box col'>
-				<h5 style='float:right; text-align:right;'><sup>Total:</sup> $240.63</h5>
-				<h2>My Cart</h2>
+			<div class='white box col bottomcontainer'>
+				<div class='row'>
+					<h2>My Cart</h2>
+					<h5 style='float:right; text-align:right; display:inline-block; position:absolute; right:5px'><sup>Total: $146.74</sup></h5>
+				</div>
 				<br/>
 				
 				<div class='blue box'>
 					<div class='row'>
-						<div class='col white square box prodbox'>
+						<div class='col white square box prodbox bottomcontainer'>
 							<a class='product' href="./product.html"><img class='product' src='./img/weed.jpg' />
 							The Gayest Weed in the World</a><br />
-							$36.95<div style='float:right font-size:0.25em' onclick='alert("Item removed from cart")'>Remove</div>
+							<div class='row' style='font-size:0.75em'>
+								<div class='col bottom' style='text-align:left; margin-left:5px'>$36.95</div>
+								<div class='col bottom' style='text-align:right; right:5px'><sub><a href="./cart.html" onclick='alert("Item added to wishlist")'>Save</a><br /><a href="./cart.html" onclick='alert("Item removed from cart")'>Remove</a></sub></div>
+							</div>
 						</div>
-						<div class='col white square box prodbox'><a class='product' href="./product.html"><img class='product' src='./img/missilecrate.jpg' />LGBT Party Missile Pack</a></div>
-						<div class='col white square box prodbox'><a class='product' href="./product.html"><img class='product' src='./img/weed.jpg' />Trans Weed</a></div>
-						<div class='col white square box prodbox'><a class='product' href="./product.html"><img class='product' src='./img/missilecrate.jpg' />C4 Demolition Charges (64-pack)</a></div>
-						<div class='col square prodbox'></div>
+						<div class='col white square box prodbox bottomcontainer'>
+							<a class='product' href="./product.html"><img class='product' src='./img/missilecrate.jpg' />
+							LGBT Party Missile Pack</a><br />
+							<div class='row' style='font-size:0.75em'>
+								<div class='col bottom' style='text-align:left; margin-left:5px'>$24.49</div>
+								<div class='col bottom' style='text-align:right; right:5px'><sub><a href="./cart.html" onclick='alert("Item added to wishlist")'>Save</a><br /><a href="./cart.html" onclick='alert("Item removed from cart")'>Remove</a></sub></div>
+							</div>
+						</div>
+						<div class='col white square box prodbox bottomcontainer'>
+							<a class='product' href="./product.html"><img class='product' src='./img/balloons.jpg' />
+							Trans Weed Balloons</a><br />
+							<div class='row' style='font-size:0.75em'>
+								<div class='col bottom' style='text-align:left; margin-left:5px'>$12.65</div>
+								<div class='col bottom' style='text-align:right; right:5px'><sub><a href="./cart.html" onclick='alert("Item added to wishlist")'>Save</a><br /><a href="./cart.html" onclick='alert("Item removed from cart")'>Remove</a></sub></div>
+							</div>
+						</div>
+						<div class='col white square box prodbox bottomcontainer'>
+							<a class='product' href="./product.html"><img class='product' src='./img/missilecrate.jpg' />
+							C4 Demolition Charges (64 pack)</a><br />
+							<div class='row' style='font-size:0.75em'>
+								<div class='col bottom' style='text-align:left; margin-left:5px'>$72.65</div>
+								<div class='col bottom' style='text-align:right; right:5px'><sub><a href="./cart.html" onclick='alert("Item added to wishlist")'>Save</a><br /><a href="./cart.html" onclick='alert("Item removed from cart")'>Remove</a></sub></div>
+							</div>
+						</div>
+						<div class='col square prodbox bottomcontainer'></div>
 						<!-- <div class='col white square box prodbox nostretch'><a class='product' href="./product.html"><img class='product' src='./img/balloons.jpg' />Regular Balloons</a></div> -->
 					</div>
 				</div>

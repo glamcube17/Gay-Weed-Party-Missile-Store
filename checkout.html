@@ -20,25 +20,58 @@
 				</div>
 			</div>
 		</div>
+		<div class='blue box' style='flex:0.5; font-size:0.5em; float:left;'>
+			<div class='row'>
+				<p>Welcome back, <b>root</b>!</p><br />
+			</div>
+			<div class='row' style='height:75%; position:relative;'>
+				<span style='position:absolute; height:20%; bottom:0px; text-align:center'>
+					<a href="./cart.html" style='margin-left:0.5em; margin-right:0.5em;'>My Cart</a>
+					<a href="./orders.html" style='margin-left:0.5em; margin-right:0.5em;'>My Orders</a>
+					<a href="./preferences.html" style='margin-left:0.5em; margin-right:0.5em;'>Preferences</a>
+					<a href="./index_loggedout.html" style='margin-left:0.5em; margin-right:0.5em;'>Log out</a>
+				</span>
+			</div>
+		</div>
 	</div>
-		</br><h3>Check out:</h3>
-		</br>
-		<form name="registry" method="get" action="URL">
-			Address: <input type="text" name="addr" size="20" maxlength="20" value="413 Egg Street"><br />
-			City: <input type="text" name="city" size="20" maxlength="20" value="Dinkleburg"><br />
-			Country: <input type="text" name="country" size="20" maxlength="20" value="Canada"><br />
-			State/Province: <input type="text" name="state" size="20" maxlength="20" value="Alberta"><br />
-			Postal code or ZIP code (opt): <input type="text" name="zip" size="20" maxlength="20" value="T3A 5I5"><br />
-			Card number: <input type="password" name="cc" size="20" maxlength="20" value="1234567890"><br />
-			Confirm card number: <input type="password" name="ccConfirm" size="20" maxlength="20" value="1234567890"><br />
-			Card security code: <input type="password" name="ccCode" size="3" maxlength="4" value="413"><br />
-			<br />
-			<input type='checkbox' checked>Remember this address</input><br />
-			<input type='checkbox' checked>Remember this card</input><br />
-			<br />
-			
-			<button class='button'><a href="./index.html" style="color:#ffffff">Place Order</a></button
-		</form>
+	
+	<div class='blue box'>
+		<h3>Check out:</h3>
+		<br />
+		
+		<div class='white box rightcontainer'>
+			<table>
+				<tr><td>The Gayest Weed in the World</td><td class='right'>$36.95</td></tr>
+				<tr><td>LGBT Party Missile Pack</td><td class='right'>$24.49</td></tr>
+				<tr><td>Trans Weed Balloons</td><td class='right'>$12.65</td></tr>
+				<tr><td>C4 Demolition Charges (64-pack)</td><td class='right'>$72.65</td></tr>
+				<tr><td>&nbsp;</td><td class='right' style='width:100%'><hr /></td></tr>
+				<tr><td>Total</td><td class='right'>$146.74</td></tr>
+			</table>
+		</div>
+		
+		<br />
+		<div class='box borderless rightcontainer'>
+			<form name="registry" method="get" action="URL">
+				Address: <input type="text" name="addr" class='right' size="40" maxlength="40" value="413 Egg Street"><br />
+				City: <input type="text" name="city" class='right' size="30" maxlength="30" value="Dinkleburg"><br />
+				Country: <input type="text" name="country" class='right' size="30" maxlength="30" value="Canada"><br />
+				State/Province: <input type="text" name="state" class='right' size="25" maxlength="25" value="Alberta"><br />
+				Postal code or ZIP code (opt): <input type="text" name="zip" class='right' size="10" maxlength="10" value="T3A 5I5"><br />
+				Card number: <input type="password" name="cc" class='right' size="20" maxlength="20" value="1234567890"><br />
+				Confirm card number: <input type="password" name="ccConfirm" class='right' size="20" maxlength="20" value="1234567890"><br />
+				Card security code: <input type="password" name="ccCode" class='right' size="3" maxlength="4" value="413"><br />
+				<br />
+				<input type='checkbox' checked>Remember this address</input><br />
+				<input type='checkbox' checked>Remember this card</input><br />
+				<br />
+				<input type='checkbox'>Save these items to easily order them again later?</input><br />
+				<br />
+				
+				<button class='button'><a href="./index.html" onclick="alert('Order placed!')" style="color:#ffffff">Place Order</a></button>
+			</form>
+		</div>
+	</div>
 		
 		
 </div>

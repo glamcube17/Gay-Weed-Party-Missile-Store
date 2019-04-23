@@ -87,6 +87,7 @@ li: {
 	flex-direction: column;
 
 	position: absolute;
+	width:50%;
 	margin-left: 25%;
     margin-right: 25%;
 }
@@ -124,6 +125,9 @@ li: {
 	border-width: 2px;
 	border-color: #eeeeee;
 	overflow: hidden;
+}
+.borderless {
+	border-style: none;
 }
 
 
@@ -163,8 +167,16 @@ li: {
 	/* border-style: solid; */
 }
 
-.nostretch {
-	width: 20%;
+.bottomcontainer, .rightcontainer {
+	position:relative;
+}
+.bottom {
+	position:absolute;
+	bottom:5px;
+}
+.right {
+	position:absolute;
+	right:5px;
 }
 
 
