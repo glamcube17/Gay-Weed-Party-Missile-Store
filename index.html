@@ -4,9 +4,10 @@
 	<meta charset='UTF-8'/>
 	<title>Gay Weed Party Missile Store</title>
 	<link rel='stylesheet' href='style.css'>
+	<script src='script.js'></script>
 </head>
 
-<body>
+<body onload='checkCookie()'>
 <div class='container'>
 	<div class='row'>
 		<div class='col' style='text-align:left; display=inline-block'>
@@ -20,18 +21,18 @@
 				</div>
 			</div>
 		</div>
-		<div class='blue box' style='flex:0.5; font-size:0.5em; float:left;'>
-			<div class='row'>
-				<p>Welcome back, <b>root</b>!</p><br />
-			</div>
-			<div class='row' style='height:75%; position:relative;'>
-				<span style='position:absolute; height:20%; bottom:0px; text-align:center'>
-					<a href="./cart.html" style='margin-left:0.5em; margin-right:0.5em;'>My Cart</a>
-					<a href="./orders.html" style='margin-left:0.5em; margin-right:0.5em;'>My Orders</a>
-					<a href="./preferences.html" style='margin-left:0.5em; margin-right:0.5em;'>Preferences</a>
-					<a href="./index_loggedout.html" style='margin-left:0.5em; margin-right:0.5em;'>Log out</a>
-				</span>
-			</div>
+		<div class='blue box' style='flex:0.5; font-size:0.5em; float:left;' id='logboxdiv'>
+			<!-- <div class='row'> -->
+				<!-- <p>Welcome back, <b>root</b>!</p><br /> -->
+			<!-- </div> -->
+			<!-- <div class='row' style='height:75%; position:relative;'> -->
+				<!-- <span style='position:absolute; height:20%; bottom:0px; text-align:center'> -->
+					<!-- <a href="./cart.html" style='margin-left:0.5em; margin-right:0.5em;'>My Cart</a> -->
+					<!-- <a href="./orders.html" style='margin-left:0.5em; margin-right:0.5em;'>My Orders</a> -->
+					<!-- <a href="./preferences.html" style='margin-left:0.5em; margin-right:0.5em;'>Preferences</a> -->
+					<!-- <a href="./index_loggedout.html" style='margin-left:0.5em; margin-right:0.5em;'>Log out</a> -->
+				<!-- </span> -->
+			<!-- </div> -->
 		</div>
 	</div>
 	<div class='box' style='border:none; margin:0;'>
